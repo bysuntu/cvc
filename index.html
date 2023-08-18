@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="https://unpkg.com/vtk.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h2>Central Venous Catheter</h2>
+      <ul>
+        <li>Introduction</li>
+        <li><span style="font-style: italic">In-vitro</span> Experiments</li>
+        <li class="active">Medical Images</li>
+        <li>Numerical Simulations</li>
+      </ul>
+    </header>
+    <main>
+      <div class="patients">
+        <ul>
+          <li class="pid active">ID 118</li>
+          <li class="pid">ID 126</li>
+          <li class="pid">ID 127</li>
+          <li class="pid">ID 128</li>
+          <li class="pid">ID 130</li>
+        </ul>
+      </div>
+      <div id="container">
+        <div class="ops">
+          <ul>
+            <li><pre>Shift + Left Mouse: Pan</pre></li>
+            <li><pre>Ctrl + Left Mouse: Rotate (in 2D)</pre></li>
+            <li><pre>Left Mouse: Rotate (in 3D)</pre></li>
+            <li><pre>Wheel: Zoom</pre></li>
+          </ul>
+        </div>
+      </div>
+
+    </main>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
